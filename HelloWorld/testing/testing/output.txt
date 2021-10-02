@@ -1,0 +1,32 @@
+Script started on 2021-09-29 15:56:22-07:00 [TERM="xterm" TTY="/dev/pts/9" COLUMNS="168" LINES="56"]
+]0;malazadi@csslab1h: ~/uwcourses/css342/testingmalazadi@csslab1h:~/uwcourses/css342/testing$ g++ -std=c++14 -g -Wall -Wextra a[KMain.ccp -o hello 
+[01m[Kg++:[m[K [01;31m[Kerror: [m[KMain.ccp: No such file or directory
+[01m[Kg++:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+]0;malazadi@csslab1h: ~/uwcourses/css342/testingmalazadi@csslab1h:~/uwcourses/css342/testing$ g++ -std=c++14 -g -Wall -Wextra Main.cpp -o hl[Kello
+[01m[KMain.cpp:1:20:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+ #include <iostream>[01;35m[K;[m[K
+                    [01;35m[K^[m[K
+]0;malazadi@csslab1h: ~/uwcourses/css342/testingmalazadi@csslab1h:~/uwcourses/css342/testing$ ./hello
+Hello World
+]0;malazadi@csslab1h: ~/uwcourses/css342/testingmalazadi@csslab1h:~/uwcourses/css342/testing$ valgrind ./hello
+
+==75979== Memcheck, a memory error detector
+==75979== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==75979== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==75979== Command: ./hello
+==75979== 
+Hello World
+==75979== 
+==75979== HEAP SUMMARY:
+==75979==     in use at exit: 0 bytes in 0 blocks
+==75979==   total heap usage: 2 allocs, 2 frees, 73,728 bytes allocated
+==75979== 
+==75979== All heap blocks were freed -- no leaks are possible
+==75979== 
+==75979== For counts of detected and suppressed errors, rerun with: -v
+==75979== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;malazadi@csslab1h: ~/uwcourses/css342/testingmalazadi@csslab1h:~/uwcourses/css342/testing$ 
+]0;malazadi@csslab1h: ~/uwcourses/css342/testingmalazadi@csslab1h:~/uwcourses/css342/testing$ exit
+
+Script done on 2021-09-29 16:03:35-07:00 [COMMAND_EXIT_CODE="0"]
